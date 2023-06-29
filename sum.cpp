@@ -1,8 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a=5;
-    int b=6;
-    cout<<"The sum is:" <<a+b;
+    int a;
+    int b;
+    printf("Enter two numbers which you want to add: ");
+    cin>>a>>b;
+    cout<<"The sum is: "<<a+b;
     return 0;
 }
